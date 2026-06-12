@@ -229,13 +229,13 @@ export default function HomePage() {
             <h2 className="section-h2">Leadership begins from within.</h2>
 
             <blockquote>
-              "I believe that every leader has an untapped reservoir of potential —
-              and that reflection is the key that unlocks it."
+              &ldquo;I believe that every leader has an untapped reservoir of potential —
+              and that reflection is the key that unlocks it.&rdquo;
             </blockquote>
 
             <p>
-              I'm Dr. R. Harrison Baxter — leadership strategist, keynote speaker,
-              and executive coach. For over two decades, I've partnered with Fortune
+              I&apos;m Dr. R. Harrison Baxter — leadership strategist, keynote speaker,
+              and executive coach. For over two decades, I&apos;ve partnered with Fortune
               500 executives, academic institutions, and emerging leaders to create
               the kind of transformation that actually sticks.
             </p>
@@ -328,7 +328,7 @@ export default function HomePage() {
                 <div className="testimonial-stars">
                   {[...Array(5)].map((_, s) => <Star key={s} size={14} fill="currentColor" />)}
                 </div>
-                <p className="testimonial-quote">"{t.quote}"</p>
+                <p className="testimonial-quote">&ldquo;{t.quote}&rdquo;</p>
                 <div className="testimonial-author">
                   <div className="testimonial-avatar">{t.initials}</div>
                   <div className="testimonial-author-info">
@@ -425,8 +425,8 @@ export default function HomePage() {
           </p>
           <h2>Bring Dr. Baxter to your<br /><em style={{ color: "var(--gold-light)", fontStyle: "italic" }}>next stage.</em></h2>
           <p>
-            Whether it's a keynote, a leadership workshop, or a full transformation
-            program — let's build something remarkable together.
+            Whether it&apos;s a keynote, a leadership workshop, or a full transformation
+            program — let&apos;s build something remarkable together.
           </p>
           <div className="btn-row" style={{ justifyContent: "center" }}>
             <Link href="/contact" className="pill-btn pill-btn-gold">

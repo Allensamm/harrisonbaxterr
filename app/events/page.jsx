@@ -81,7 +81,7 @@ export default function EventsPage() {
         {/* Upcoming */}
         <section className="events-list">
           <p className="section-kicker"><CalendarDays size={13} />Upcoming Events</p>
-          <h2 className="section-h2">Reserve your seat before they're gone.</h2>
+          <h2 className="section-h2">Reserve your seat before they&apos;re gone.</h2>
 
           {upcoming.map((ev) => (
             <div className="event-card" key={ev.title}>
@@ -133,7 +133,7 @@ export default function EventsPage() {
           <div className="cta-band-glow" />
           <div className="cta-band-content">
             <p className="section-kicker" style={{ justifyContent: "center" }}>Bring Dr. Baxter to You</p>
-            <h2>Don't wait for the next<br /><em style={{ color: "var(--gold-light)", fontStyle: "italic" }}>public event.</em></h2>
+            <h2>Don&apos;t wait for the next<br /><em style={{ color: "var(--gold-light)", fontStyle: "italic" }}>public event.</em></h2>
             <p>Book Dr. Baxter for your private corporate event, conference, or university — any time, any location.</p>
             <div className="btn-row" style={{ justifyContent: "center" }}>
               <Link href="/contact" className="pill-btn pill-btn-gold">Book a Private Event <ArrowRight size={18} /></Link>

@@ -173,9 +173,9 @@ export default function KeynotesPage() {
         <section className="cta-band">
           <div className="cta-band-glow" />
           <div className="cta-band-content">
-            <p className="section-kicker" style={{ justifyContent: "center" }}>Let's Make It Happen</p>
-            <h2>Your audience is waiting.<br /><em style={{ color: "var(--gold-light)", fontStyle: "italic" }}>Let's not keep them.</em></h2>
-            <p>Tell us about your event, audience, and goals. Dr. Baxter's team responds within 24 hours.</p>
+            <p className="section-kicker" style={{ justifyContent: "center" }}>Let&apos;s Make It Happen</p>
+            <h2>Your audience is waiting.<br /><em style={{ color: "var(--gold-light)", fontStyle: "italic" }}>Let&apos;s not keep them.</em></h2>
+            <p>Tell us about your event, audience, and goals. Dr. Baxter&apos;s team responds within 24 hours.</p>
             <div className="btn-row" style={{ justifyContent: "center" }}>
               <Link href="/contact" className="pill-btn pill-btn-gold">
                 Start the Booking Process <ArrowRight size={18} />
