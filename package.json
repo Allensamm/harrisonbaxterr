@@ -1,0 +1,22 @@
+{
+  "name": "rharrisonbaxter-redesign",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "gsap": "^3.12.5",
+    "lucide-react": "^0.468.0",
+    "next": "^16.2.9",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "three": "^0.166.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^16.2.9"
+  }
+}
