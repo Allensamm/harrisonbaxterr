@@ -8,7 +8,9 @@ import {
   ArrowRight, BookOpen, Brain, CalendarDays, ChevronRight,
   MessageCircle, Mic2, Star, Target, TrendingUp, Users, Zap,
 } from "lucide-react";
-import HeroScene from "./HeroScene";
+import dynamic from "next/dynamic";
+
+const HeroScene = dynamic(() => import("./HeroScene"), { ssr: false });
 
 gsap.registerPlugin(ScrollTrigger);
 
